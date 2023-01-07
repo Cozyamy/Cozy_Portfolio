@@ -413,8 +413,8 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 .teams .carousel .card img{
-    height: 180px;
-    width: 180px;
+    height: 300px;
+    width: 300px;
     object-fit: cover;
     border-radius: 20%;
     border: 5px solid blue;
@@ -443,6 +443,25 @@ section .title::after{
 .owl-dot.active,
 .owl-dot:hover{
     background: #E106D8!important;
+}
+
+
+
+.viewsite {
+    background-color: #E106D8;
+    border: none;
+    border-radius: 8px;
+    margin: 2px;
+    padding: 4px;
+    color: #FFFFFF;
+}
+
+.viewcode {
+    border-radius: 8px;
+    margin: 2px;
+    padding: 4px;
+    border: 1px solid #E106D8;
+    color: #FFFFFF;
 }
 
 /* contact section styling */
